@@ -1,20 +1,33 @@
-@media (min-width: 1025px) and (max-width: 1180px) {
+@media (min-width: 841px) and (max-width: 1180px) {
   body.landing .menubar {
     max-width: 1180px;
     display: flex;
     flex-direction: column;
   }
 
+  .wrapper {
+    background-color: #fafafa;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+  }
+
   .mainsection {
-    max-width: 1180px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+    width: 1025px;
     height: 568px;
+    overflow: hidden;
   }
 
   .left div {
     left: 114px;
   }
 
+  .right {
+    background-color: #879696;
+  }
+
   .center {
+    background-color: #879696;
     top: 0px;
   }
 
@@ -97,23 +110,38 @@
 
 }
 
-@media (max-width: 1024px) {
-  body.landing .menubar {
-    max-width: 1024px;
+@media (max-width: 840px) {
+  body.landing .menubar , .wrapperr {
+    max-width: 768px;
     display: flex;
     flex-direction: column;
+    background-color: #fafafa;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
   }
 
   .mainsection {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: 1024px;
+    width: 768px;
     height: 1024px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+    overflow: hidden;
+  }
+
+  .right {
+    background-color: #879696;
+  }
+
+  .center {
+    background-color: #879696;
+    top: 0px;
+    height: 550px;
   }
 
   .left div {
-    left: 114px;
+    left: 140px;
   }
 
   .center div {
@@ -135,20 +163,20 @@
 
   .text {
     position: relative;
-    left: 350px;
+    left: 300px;
     top: 0px;
   }
 
   .pic {
     position: relative;
-    left: 130px;
+    left: 143px;
     top: 100px;
   }
 
   #mockup1 {
     position: relative;
     top: 450px;
-    right: 390px;
+    right: 366px;
     width: 540px;
     height: 1222px;
     background-image: url(../images/about.png);
