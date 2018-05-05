@@ -18,6 +18,10 @@
     overflow: hidden;
   }
 
+  .mainsection div {
+    width: 400px;
+  }
+
   .left div {
     left: 114px;
   }
@@ -33,6 +37,7 @@
 
   .center div {
     top: 0px;
+    width: 670px;
   }
 
   .text {
@@ -110,7 +115,7 @@
 
 }
 
-@media (max-width: 840px) {
+@media (max-width: 840px)  and (min-width: 520px){
   body.landing .menubar , .wrapperr {
     max-width: 768px;
     display: flex;
@@ -147,6 +152,7 @@
   .center div {
     position: relative;
     top: 0px;
+    width: 500px;
   }
 
   .mainsection h2 {
@@ -187,7 +193,7 @@
   #mockup3 {
     position: relative;
     left: 122px;
-    top: 150px;
+    top: 80px;
     width: 760px;
     height: 403px;
     background-image: url(../images/screens.png);
